@@ -1,0 +1,30 @@
+{
+    "name": "my-xtension",
+    "displayName": "my-xtension",
+    "description": "tema fachero 😎",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Theme code",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Theme code-color-theme.json"
+            }
+        ]
+    },
+    "icon": "icons/dark-theme.png",
+    "author": {
+        "name": "James"
+    },
+    "repository": {
+        "url": "https://github.com/Jamesllm/my-theme-vscode",
+        "type": "git"
+    },
+    "publisher": "james-code"
+}
